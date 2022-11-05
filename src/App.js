@@ -46,7 +46,7 @@ function App() {
      let inputs = gridContainer.childNodes;
      for(let i = 0 ; i < inputs.length ; i++){
         if(searchInput.length >= 1){
-        if(inputs[i].value == searchInput){
+        if(inputs[i].value === searchInput){
           inputs[i].style.color = 'red'
         }
        }else{
